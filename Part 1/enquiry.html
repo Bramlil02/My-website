@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+</head>
+<body>
+    <!--Image of Nicros Image-->
+    <img src="Nicro.webp">
+    <!--Main Heading of the form-->
+    <h1>Service Enquiry Form</h1>
+    <!--A paragraph providing a brief description of the enquiry section.-->
+    <p><b>This is our Enquiry section whereby people are allowed to enqure about their services and are allowed to volunteerand sponsor.</b></p>
+    <!--Definesa form for user to input.-->
+    <form action="#" method="post">
+    <!--Label for the "Enquiry Type" to dropdown-->
+    <label for="Enquiry Type">Enquiry Type:</label>
+    <!--Dropdown menu for selecting the type of enquiry.-->
+    <select id="enquiryType" name="enquiryType" onchange="toggleNPOFields()">
+    <!--Option for Service enquiry-->
+    <option value="Service">Service</option>
+    <!--Option for NPO(volunteer/sponsor) enquiry-->
+    <option value="npo">NPO(Volunteer/Sponsor)</option>
+</select>
+<br></br><!--Line breaking for space-->
+ <!--Container for 'Service of Interest' fields-->
+ <div id="ServiceFields">   
+<!--Lable for the 'Service of Interest' text input.-->
+ <label for="Service">Service of Interest</label>
+<!--Text input field for the service of interest.-->
+ <input type="Text" id="Service" name="Service">
+<!--Line break for spacing-->
+<br></br>   
+</div>
+<!--Container for 'NPO Enquiry'fields-->
+<div id="npoFields" style="display:none">
+<!--Lable for the 'NPO Enquiry' dropdown-->
+<label for="npoEnquiry">NPO Enquiry:</label>
+<!--Dropdown menu for selecting the type of NPO enquiry-->
+<select id="npoEnquiry" name="npoEnquiry">
+<!--Option for 'Volunteer'.-->
+    <option value="volunteer">Volunteer</option>
+<!--Option for 'Sponsor'.-->
+    <option value="Sponsor">Sponsor</option>
+</select>
+<!--Line break for spacing-->
+<br></br>
+</div>
+<!--Label for the name input field.-->
+<label for="name">Name:</label>
+<!--'Input' tag creates an input field.-->
+<input type="Text id=name" name="name"required>
+<br></br>
+<!--Label for email address input field.-->
+<label for="Email">Email Address:</label>
+<!--'Input' tag for email address-->
+<input type="Email id=Email" name="Email"required>
+<br></br>
+<!--Label for the Message textarea.-->
+<lable for="Message">Message</lable>
+<!--'Textarea' tag creates a multi-line text-->
+<textarea id="Message" name="Message" row="7"></textarea>
+<br></br>
+<!--'Input' tag with 'tyoe='submit"' creates a button that submits the form. 'value' sets the text displayed on the button. -->
+<input type="submit" value="Submit Enquiry">
+<!--Closes the form. All elements between <form> and </for> are part of this form submission.-->
+</form>
+<!--Navigation link that takes the user back home-->
+<nav>
+    <a href="index.html"> HomePage </a> 
+</nav>
+<!--Closes the body section of the document, which contains the visible content of the webpage.-->
+</body>
+<!--Closes the whole document.-->
+</html>
