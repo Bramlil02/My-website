@@ -40,7 +40,9 @@ Date                     Version                   Description
 2025-08-20                 0.2                     Added content to index.html,about.html,service.html,enquiry.html and contact.html
 2025-08-26                 0.3                     Completed all content for all pages. Updated README with project details.
 2025-08-27                 0.4                     Edited README File 
-
+2025-09-25                 0.5                     Created style.css file and linked it to the html files
+2025-09-25                 0.6                     Edited website to be responsive to all working mobile devices
+2025-09-26                 0.7                     Updated README File                    
 References 
 
 Content
@@ -54,7 +56,7 @@ Hostinger, 2025. How Much Does It Cost to Build a Website in 2025?. [online] Ava
 Nicro,2016. Nicro FOR A SAFE SOUTH AFRICA. [online] Available at : < 
 https://www.nicro.org.za/index.php/en/  > [Accessed 06 August 2025].
 
-NIcro,2016. Nicro FOR A SAFE SOUTH AFRICA. [online] Available at : < 
+Nicro,2016. Nicro FOR A SAFE SOUTH AFRICA. [online] Available at : < 
 https://www.nicro.org.za/index.php/en/  > [Accessed 06 August 2025].
 
 Nicro, 2016. Nicro FOR A SAFE SOUTH AFRICA. [online] Available at : < 
@@ -68,7 +70,7 @@ https://www.nicro.org.za/index.php/en/  > [Accessed 06 August 2025].
 
 Wix,2025. Website Maintenace costs: here’s what to expect. [online] Available at: < 
 https://www.wix.com > [Accessed 05 August 2025].
-
+W3School,2025. HTML Responsive Web design. [online] Available at: < https://www.w3schools.com/html/html_responsive.asp > [Accessed 26 September 2025].
 Images 
 
 Nicro Non-profit organistation,2018. Prisoners play.[electronic print]. Available at: < https://www.nicro.org.za/index.php/en/ > [Accessed 20 August 2025].
