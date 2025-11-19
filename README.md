@@ -42,7 +42,12 @@ Date                     Version                   Description
 2025-08-27                 0.4                     Edited README File 
 2025-09-25                 0.5                     Created style.css file and linked it to the html files
 2025-09-25                 0.6                     Edited website to be responsive to all working mobile devices
-2025-09-26                 0.7                     Updated README File                    
+2025-09-26                 0.7                     Updated README File   
+2025-11-10                 0.8                     Created my java script files/documents
+2025-11-10                 0.9                     Added content into my javascript documents
+2025-11-11                 1.0                     created seo_index file and seo_style file 
+2025-11-12                 1.2                     Added content into the seo_index and seo_style 
+2025-11-19                 1.3                     updated README file
 References 
 
 Content
